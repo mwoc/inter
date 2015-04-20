@@ -310,7 +310,6 @@ if (commandLineOptions.jobsize && targetLocaleIds.length > commandLineOptions.jo
         }
         if (!commandLineOptions.currencies) {
             omitByMethodName.renderCurrencyLong = true;
-            omitByMethodName.renderCurrencyShort = true;
         }
         if (!commandLineOptions.unitpatterns) {
             omitByMethodName.makeUnitRenderer = true;
